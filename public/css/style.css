@@ -1,0 +1,224 @@
+/* Space out content a bit */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+/* Everything but the jumbotron gets side spacing for mobile first views */
+.header,
+.marketing,
+.footer {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+/* Custom page header */
+.header {
+  padding-bottom: 20px;
+  border-bottom: 1px solid #e5e5e5;
+}
+/* Make the masthead heading the same height as the navigation */
+.header h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 40px;
+}
+
+/* Custom page footer */
+.footer {
+  padding-top: 19px;
+  color: #777;
+  border-top: 1px solid #e5e5e5;
+}
+
+/* Customize container */
+@media (min-width: 768px) {
+  .container {
+    max-width: 730px;
+  }
+}
+.container-narrow > hr {
+  margin: 30px 0;
+}
+
+/* Main marketing message and sign up button */
+.jumbotron {
+  text-align: center;
+  border-bottom: 1px solid #e5e5e5;
+}
+.jumbotron .btn {
+  padding: 14px 24px;
+  font-size: 21px;
+}
+
+/* Supporting marketing content */
+.marketing {
+  margin: 40px 0;
+}
+.marketing p + h4 {
+  margin-top: 28px;
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+  /* Remove the padding we set earlier */
+  .header,
+  .marketing,
+  .footer {
+    padding-right: 0;
+    padding-left: 0;
+  }
+  /* Space out the masthead */
+  .header {
+    margin-bottom: 30px;
+  }
+  /* Remove the bottom border on the jumbotron for visual effect */
+  .jumbotron {
+    border-bottom: 0;
+  }
+}
+
+.page-header{
+color: red;
+  margin-top:0;
+}
+
+footer{
+  margin-top:40px;
+}
+
+.img1{
+  width: 400px;
+  margin-right: 40px;
+  z-index: 5;
+}
+.img1:hover { box-shadow: 0 0 35px gold;}
+
+.img2{
+  width: 200px;
+  margin-right: 20px;
+  z-index: 5;
+}
+.img2:hover { box-shadow: 0 0 35px gold;}
+
+.img3{
+  width: 350px;
+  margin-right: 35px;
+  z-index: 5;
+}
+.img3:hover { box-shadow: 0 0 35px blueviolet;}
+
+.FonIn{
+  background: url(../resource/mainPage.jpeg) fixed;
+  background-size: cover;
+  margin: 0;
+}
+.FonH{
+  background: url(../resource/mainPage.jpeg) fixed;
+  background-size: cover;
+  margin: 0;
+}
+.FonCol{
+  background: url(../resource/mainPage.jpeg);
+  background-size: cover;
+  margin: 0;
+}
+
+.FonR{
+
+  background: url(../resource/mainPage.jpeg) fixed;
+  opacity: 1;
+  background-size: cover;
+  margin: 0;
+
+}
+.FonL{
+
+   background: url(../resource/backgroundForChapters.jpg) fixed;
+   background-size: cover;
+   margin: 0;
+
+ }
+.inf1 {
+  color:darkmagenta;
+  font-size: 300%;
+  text-align: center;
+}
+
+.a4
+{
+  color: blue;
+  font-size: 150%;
+  text-align: center;
+}
+
+.a1
+{
+  color: red;
+  font-size: 150%;
+}
+.a6
+{
+  color: hotpink;
+  font-size: 100%;
+}
+.a8
+{
+  color: blue;
+  font-size: 120%;
+}
+.a9
+{
+  color: #000000;
+  font-size: 120%;
+
+}
+
+body {
+
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAYAAACNbyblAAAAI0lEQVQIW2NkwAT/GdHE/gP5jMiCYAGQIpggXAAmiCIAEgQAAE4FBbECyZcAAAAASUVORK5CYII=) #222;
+}
+
+
+.menu {
+  position: absolute;
+  transition: all 2s ease-in-out;
+  -webkit-transition: all 2s ease-in-out; /** Chrome & Safari **/
+  -moz-transition: all 2s ease-in-out; /** Firefox **/
+  -o-transition: all 2s ease-in-out; /** Opera **/
+}
+
+van{
+  top: 260%;
+  left: 25%;
+}
+
+#axis:hover .animation{
+  transform: translate(800px,0);
+  -webkit-transform: translate(800px,0); /** Chrome & Safari **/
+  -o-transform: translate(800px,0); /** Opera **/
+  -moz-transform: translate(800px,0); /** Firefox **/
+}
+
+@keyframes moving-cat{
+  0%{
+    transform: translate(0, 0);
+    opacity: 1;
+  }
+  100%{
+    transform: translate(500px, 0);
+    -webkit-transform: translate(500px, 0);
+    opacity: 1;
+
+  }
+}
+#anim{
+  animation: moving-cat 3s linear;
+  animation-direction: alternate;
+  animation-iteration-count: 8;
+}
